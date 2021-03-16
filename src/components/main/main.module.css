@@ -560,3 +560,98 @@ a{
     width: 194.99966430664062px;
     top: -80px !important;
 }
+
+.facult_web_img h2{
+    position: absolute;
+    top: 62px;
+    left: 161px;
+    font-family: "ArialArmST";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+
+}
+
+.facult_web_emblem{
+
+}
+
+
+
+
+.section5{
+    margin-top: 15.8px;
+}
+.container_section5{
+    width: 1290px;
+    margin: 0 auto;
+}
+.section5_h1{
+    display: flex;
+    justify-content: center;
+}
+.container_section5 h1{
+    font-family: ArialArmST;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 53px;
+    letter-spacing: 0.055em;
+    color: #0A072D;
+    margin-bottom: 100px;
+}
+
+.lessons{
+
+}
+.lesson_1{
+    height: 469px;
+    width: 630px;
+    border-radius: 20px;
+    background: linear-gradient(270deg, #1D607A 0%, #107CA6 100%);
+    border-radius: 20px;
+}
+.lesson{
+    display: flex;
+    justify-content: space-between;
+}
+.lessons_about2{
+    margin-right: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.lesson_about1{
+    width: 50%;
+}
+.lesson_about1 h3{
+    font-family: "ArialArmST";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.055em;
+    color: #050E11;
+}
+.lesson_about_gruop{
+    display: flex;
+    width: 630px;
+    margin: 10px 0px 29px 20px;
+    justify-content: space-between;
+}
+.lessons_btn_gruop{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.lesson_stars{
+    display: flex;
+
+}
+
+

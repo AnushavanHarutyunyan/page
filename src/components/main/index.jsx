@@ -22,6 +22,12 @@ import play_btn from '../../img/svg/play_btn.svg';
 import background_facultet1 from '../../img/png/background_facultet1.png';
 import icon_background_facultety from '../../img/png/icon_background_facultety.png';
 import icon_facultety_web from '../../img/png/icon_facultety_web.png';
+import emblem_facultety from '../../img/png/emblem_facultety.png';
+import group2 from '../../img/png/group2.png';
+import user2 from '../../img/png/user2.png';
+import date2 from '../../img/png/date2.png';
+import star16 from '../../img/png/star16.png';
+import star19 from '../../img/png/star19.png';
 
 export default function MainComp(){
     return (
@@ -208,6 +214,8 @@ export default function MainComp(){
             <div className={`${styles.facult_web}`}>
               <div className={`${styles.facult_web_img}`}>
                 <img src={background_facultet1}/>
+                <h2>Վեբ <br></br>ծրագրավորման</h2>
+                <img src={emblem_facultety} className={`${styles.facult_web_emblem}`}/>
               </div>
               <div className={`${styles.facult_web_icon}`}>
                 <img src={icon_background_facultety}/>
@@ -222,6 +230,61 @@ export default function MainComp(){
             </div>
             <div className={`${styles.facult}`}>
 
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={`${styles.section5}`}>
+        <div className={`${styles.container_section5}`}>
+          <div className={`${styles.section5_h1}`}>
+            <h1>Դասընթացներ</h1>
+          </div>
+          <div className={`${styles.lessons}`}>
+            <div className={`${styles.lesson}`}>
+              <div className={`${styles.lesson_1}`}>
+
+              </div>
+              <div className={`${styles.lesson_1}`}>
+
+              </div>
+            </div>
+            <div className={`${styles.lesson_about_gruop}`}>
+              <div className={`${styles.lesson_about1}`}>
+                <div><h3>Front-end</h3></div>
+                  <div>
+                    <div><h2>ծրագրավորում</h2></div>
+                    <div><p>Վեբ ծրագրավորումը ներկայումս աշխատաշուկայում 
+                    ամենապահանջված մասնագիտություններից է։ Այն բաժանվում է 
+                    2 հիմնական մասնագիտացումների՝ Front-End և Back-End 
+                    ծրագրավորում, որոնցից յուրաքանչյուրն ունի...</p>
+                  </div>
+                </div>
+              </div>
+              <div className={`${styles.lessons_about2}`}>
+                  <div>
+                    <img src={group2}/>
+                    <span>3-5 անձ</span>
+                  </div>
+                  <div>
+                    <img src={user2}/>
+                    <span>1-2 անձ</span>
+                  </div>
+                  <div>
+                    <img src={date2}/>
+                    <span>4-6 ամիս</span>
+                  </div>
+                  <div className={`${styles.lesson_stars}`}>
+                    <div><img src={star16}/></div>
+                    <div><img src={star16}/></div>
+                    <div><img src={star16}/></div>
+                    <div><img src={star19}/></div>
+                    <div><img src={star19}/></div>
+                  </div>
+                </div>
+            </div>
+            <div className={`${styles.lessons_btn_gruop}`}>
+              <div><a href='#'>Դիմել</a></div>
+              <div><a href='#'>Ուս․ ծրագիր</a></div>
             </div>
           </div>
         </div>
