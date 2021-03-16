@@ -6,7 +6,7 @@ import search from '../../img/svg/search.svg';
 import lang from '../../img/png/lang.png'; 
 import avatar_user from '../../img/png/avatar.png';
 import icon_phone from '../../img/png/icon_phone.png';
-import pic_main from '../../img/png/pic_main.png'
+import pic_main from '../../img/png/pic_main.png';
 import banner1 from '../../img/svg/banner_icon1.svg';
 import banner2 from '../../img/svg/banner_icon2.svg';
 import banner3 from '../../img/svg/banner_icon3.svg';
@@ -15,7 +15,13 @@ import circul_background from '../../img/svg/circul_background.svg';
 import circul_2 from '../../img/svg/circul_2.svg';
 import circul_3 from '../../img/svg/circul_3.svg';
 import circul_4 from '../../img/svg/circul_4.svg';
-
+import pic_section3 from '../../img/png/pic_section3.png';
+import pattern1 from '../../img/png/pattern1.png';
+import pattern2 from '../../img/png/pattern2.png';
+import play_btn from '../../img/svg/play_btn.svg';
+import background_facultet1 from '../../img/png/background_facultet1.png';
+import icon_background_facultety from '../../img/png/icon_background_facultety.png';
+import icon_facultety_web from '../../img/png/icon_facultety_web.png';
 
 export default function MainComp(){
     return (
@@ -75,7 +81,7 @@ export default function MainComp(){
           </div>
         </div>
       </header>
-      <section>
+      <section className={`${styles.section1}`}>
         <div className={`${styles.container_section1}`}>
           <div className={`${styles.banners}`}>
             <div className={`${styles.banner1}`}>
@@ -124,7 +130,7 @@ export default function MainComp(){
           <div className={`${styles.slider_icon_selected}`}></div>
         </div>
       </section>
-      <section>
+      <section className={`${styles.section2}`}>
         <div className={`${styles.container_section2}`}>
           <div><h1>Մեր մասին</h1></div>
           <div className={`${styles.circles_section2}`}>
@@ -171,10 +177,56 @@ export default function MainComp(){
           </div>
         </div>
       </section>
-      <footer>
-        <div className={`${styles.container}`}>
-
+      <section className={`${styles.section3}`}>
+        <div className={`${styles.container_section3}`}>
+          <div className={`${styles.about_us}`}>
+            <h1>Մեր մասին կարճ տեսանյութ</h1>
+            <p>Դիտելով այս հոլովակը դուք կստանաք ձեր բոլոր
+                հարցերի պատասխանները
+            </p>
+            <img src={pic_section3}/>
+          </div>
+          <div className={`${styles.pattern_section3}`}>
+              
+              <img src={pattern1}/>
+              <div className={`${styles.pattern2}`}>
+                <img src={pattern2}/>
+              </div>
+              <div className={`${styles.play_btn}`}>
+              <div><img src={play_btn}/></div>
+              </div>
+            
+          </div>
         </div>
+      </section>
+      <section className={`${styles.section4}`}>
+        <div className={`${styles.container_section2}`}>  
+          <div>
+            <div><h1>Ֆակուլտետներ</h1></div>
+          </div>
+          <div className={`${styles.faculty}`}>
+            <div className={`${styles.facult_web}`}>
+              <div className={`${styles.facult_web_img}`}>
+                <img src={background_facultet1}/>
+              </div>
+              <div className={`${styles.facult_web_icon}`}>
+                <img src={icon_background_facultety}/>
+                <div>
+                  <img src={icon_facultety_web} className={`${styles.icon_dev}`}/>
+                </div>
+              </div>
+
+            </div>
+            <div className={`${styles.facult}`}>
+
+            </div>
+            <div className={`${styles.facult}`}>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
       </footer>
     </main>
     )
