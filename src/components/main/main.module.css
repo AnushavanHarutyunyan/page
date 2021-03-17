@@ -537,9 +537,9 @@ a{
     position: relative;
 }
 .facult_web_img{
-    position: absolute;
+    position: relative;
     right: 15%;
-    top: -5.2%;
+    top: -5.3%;
     height: 444.75054931640625px;
     width: 409.79718017578125px;
 }
@@ -549,17 +549,12 @@ a{
 }
 .facult_web_icon img{
     top: 159px;
-    position: relative;
+    position: absolute;
     height: 208px;
     width: 212px;
     left: 98.8984375px; 
 }
 
-.icon_dev{
-    height: 210px;
-    width: 194.99966430664062px;
-    top: -80px !important;
-}
 
 .facult_web_img h2{
     position: absolute;
@@ -577,12 +572,27 @@ a{
 }
 
 .facult_web_emblem{
-
+    position: absolute;
+    top: 65px;
+    left: 77px;
 }
 
+.sales_background{
+    position: absolute;
+    top: 65px;
+    right: -69px;
+    height: 34.32311248779297px;
+    width: 80.08726501464844px;
+    background: #6D28FE;
+    border-radius: 10px;
+}
 
-
-
+.facult_web_img span{
+    position: absolute;
+    color: white;
+    top: 73px;
+    right: -63px;
+}
 .section5{
     margin-top: 15.8px;
 }
@@ -616,15 +626,28 @@ a{
     border-radius: 20px;
 }
 .lesson{
+    width: 49%;
     display: flex;
     justify-content: space-between;
 }
 .lessons_about2{
-    margin-right: 69px;
+    margin-right: 62px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-top: 57.25px;
     justify-content: space-around;
+}
+.lessons_about2 span{
+    font-family: "ArialArmST";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #000000;
+    opacity: 0.5;
 }
 .lesson_about1{
     width: 50%;
@@ -637,11 +660,32 @@ a{
     line-height: 27px;
     letter-spacing: 0.055em;
     color: #050E11;
+    padding-bottom: 10.57px;
+}
+.lesson_about1 h2{
+    font-family: "ArialArmST";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.055em;
+    color: #1D607A;
+    padding-bottom: 10px;
+}
+.lesson_about1 p{
+    width: 337px;
+    font-family: "Arial-AMU";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.055em;
+    /* padding-bottom: 19px; */
 }
 .lesson_about_gruop{
     display: flex;
     width: 630px;
-    margin: 10px 0px 29px 20px;
+    margin: 10px 0px 19px 20px;
     justify-content: space-between;
 }
 .lessons_btn_gruop{
@@ -653,5 +697,202 @@ a{
     display: flex;
 
 }
+.lessons_about2_group{
+    width: 112px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.lessons_btn_gruop{
+
+}
+.lessons_btn_gruop_div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1D607A;
+    border-radius: 100px;
+    height: 61px;
+    width: 266.05755615234375px;    
+}
+.lessons_btn_gruop_div1 span{
+    font-family: "ArialArmST";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+
+}
+
+.lessons_btn_gruop_div2{
+    border: 2px solid #1D607A;
+    box-sizing: border-box;
+    border-radius: 100px;
+    height: 61px;
+    width: 266.05755615234375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lessons_btn_gruop_div2 span{
+    font-family: "ArialArmST";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #1D607A;
+}
+
+.options{
+    padding: 0px 10px 0px 10px;
+    margin: 0 auto;
+    height: 40px;
+    width: 375px;
+    border-radius: 5px;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    position: relative;
+    bottom: 285px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.option1 p{
+    font-family: "ArialArmST";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #181818;
+}
+
+.option2 p{
+    font-family: "ArialArmST";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #181818;
+}
+
+.frame_a a{
+    height: 60px;
+    width: 230px;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    background-color: #604CDA;
+    padding: 20.5px 53.3px 20.5px 54.7px;
+    border-radius: 68px;
+}
+
+.frame_a2 a{
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+}
+
+.facult_dev{
+    position: relative;
+    height: 610.214599609375px;
+    width: 409.5425720214844px;
+    box-shadow: 1px 31px 62px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
 
 
+.background_facultet2{
+    position: absolute;
+    right: 0;
+    top: -30px;
+    left: -60.9px;
+    width: 130.3%;
+    z-index: -1;
+}
+.facult_dev h1{
+    font-family: "ArialArmST";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    padding:25px 0px 6px 0px;
+}
+
+.facult_dev h3{
+    font-family: "ArialArmST";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 50.13px;
+}
+
+.facult_dev_img{
+    height: 208px;
+    width: 212px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 154px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.facult_dev_option_sales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34.32311248779297px;
+    width: 80.08726501464844px;
+    border-radius: 10px;
+    background: #6D28FE;
+    border-radius: 10px;
+    position: absolute;
+    right: -10px;
+    top: 27px;
+    color: white;
+}
+
+.facult_dev_prog_log{
+    position: absolute;
+    left: -17px;
+}
+
+.facult_dev_options{
+    height: 140.5234375px;
+    width: 375px;
+    border-radius: 5px;
+}
+
+.facult_dev_option{
+    display: flex;
+    justify-content: space-between;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 10.26px;
+    position: relative;
+}

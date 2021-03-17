@@ -20,7 +20,6 @@ import pattern1 from '../../img/png/pattern1.png';
 import pattern2 from '../../img/png/pattern2.png';
 import play_btn from '../../img/svg/play_btn.svg';
 import background_facultet1 from '../../img/png/background_facultet1.png';
-import icon_background_facultety from '../../img/png/icon_background_facultety.png';
 import icon_facultety_web from '../../img/png/icon_facultety_web.png';
 import emblem_facultety from '../../img/png/emblem_facultety.png';
 import group2 from '../../img/png/group2.png';
@@ -28,6 +27,9 @@ import user2 from '../../img/png/user2.png';
 import date2 from '../../img/png/date2.png';
 import star16 from '../../img/png/star16.png';
 import star19 from '../../img/png/star19.png';
+import background_facultet2 from '../../img/png/background_facultet2.png';
+import icon_facultety_dev from '../../img/png/icon_facultety_dev.png';
+import prog_logo from '../../img/svg/prog_logo.svg';
 
 export default function MainComp(){
     return (
@@ -216,17 +218,65 @@ export default function MainComp(){
                 <img src={background_facultet1}/>
                 <h2>Վեբ <br></br>ծրագրավորման</h2>
                 <img src={emblem_facultety} className={`${styles.facult_web_emblem}`}/>
-              </div>
-              <div className={`${styles.facult_web_icon}`}>
-                <img src={icon_background_facultety}/>
                 <div>
-                  <img src={icon_facultety_web} className={`${styles.icon_dev}`}/>
+                  <div className={`${styles.sales_background}`}></div>
+                  <span>- 45% զեղչ</span>
                 </div>
               </div>
-
+              <div className={`${styles.facult_web_icon}`}>
+                <img src={icon_facultety_web}/>
+              </div>
+              <div className={`${styles.options}`}>
+                <div className={`${styles.option1}`}>
+                  <p>Front end</p>
+                </div>
+                <div className={`${styles.option2}`}>
+                  <p>25% զեղչ</p>
+                </div>
+              </div>
+              <div className={`${styles.options}`}>
+                <div className={`${styles.option1}`}>
+                  <p>Back end</p>
+                </div>
+                <div className={`${styles.option2}`}>
+                  <p>25% զեղչ</p>
+                </div>
+              </div>
+              <div className={`${styles.options}`}>
+                <div className={`${styles.option1}`}>
+                  <p>Full stack</p>
+                </div>
+                <div className={`${styles.option2}`}>
+                  <p>25% զեղչ</p>
+                </div>
+              </div>
+              <div className={`${styles.frame_a2} ${styles.frame_a}`}>
+                <a href='#'>Իմանալ ավելին</a>
+              </div>
             </div>
-            <div className={`${styles.facult}`}>
-
+            <div className={`${styles.facult_dev}`}>
+                <img src={prog_logo} className={`${styles.facult_dev_prog_log}`}/>
+                <div className={`${styles.facult_dev_option_sales}`}>
+                  <p>-45% զեղչ</p>
+                </div>
+                <img src={background_facultet2} className={`${styles.background_facultet2}`}/>
+                <h1>Ծրագրավորման</h1>
+                <h3>Ֆակուլտետ</h3>
+                <img src={icon_facultety_dev} className={`${styles.facult_dev_img}`}/>
+                <div className={`${styles.facult_dev_options}`}>
+                  <div className={`${styles.facult_dev_option}`}>
+                    <p>Front end</p>
+                    <p>25% զեղչ</p>
+                  </div>
+                  <div className={`${styles.facult_dev_option}`}>
+                    <p>Back end</p>
+                    <p>25% զեղչ</p>
+                  </div>
+                  <div className={`${styles.facult_dev_option}`}>
+                    <p>Full stack</p>
+                    <p>25% զեղչ</p>
+                  </div>
+                </div>
             </div>
             <div className={`${styles.facult}`}>
 
@@ -240,10 +290,8 @@ export default function MainComp(){
             <h1>Դասընթացներ</h1>
           </div>
           <div className={`${styles.lessons}`}>
-            <div className={`${styles.lesson}`}>
-              <div className={`${styles.lesson_1}`}>
-
-              </div>
+            <div>
+                <div className={`${styles.lesson}`}>
               <div className={`${styles.lesson_1}`}>
 
               </div>
@@ -261,15 +309,15 @@ export default function MainComp(){
                 </div>
               </div>
               <div className={`${styles.lessons_about2}`}>
-                  <div>
+                  <div className={`${styles.lessons_about2_group}`}>
                     <img src={group2}/>
                     <span>3-5 անձ</span>
                   </div>
-                  <div>
+                  <div className={`${styles.lessons_about2_group}`}>
                     <img src={user2}/>
                     <span>1-2 անձ</span>
                   </div>
-                  <div>
+                  <div className={`${styles.lessons_about2_group}`}>
                     <img src={date2}/>
                     <span>4-6 ամիս</span>
                   </div>
@@ -283,9 +331,14 @@ export default function MainComp(){
                 </div>
             </div>
             <div className={`${styles.lessons_btn_gruop}`}>
-              <div><a href='#'>Դիմել</a></div>
-              <div><a href='#'>Ուս․ ծրագիր</a></div>
+              <div className={`${styles.lessons_btn_gruop_div1}`}>
+                <a href='#'><span>Դիմել</span></a>
+                </div>
+              <div className={`${styles.lessons_btn_gruop_div2}`}>
+                <div><a href='#'><span>Ուս․ ծրագիր</span></a></div>
+                </div>
             </div>
+          </div>
           </div>
         </div>
       </section>
