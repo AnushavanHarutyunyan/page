@@ -20,16 +20,34 @@ import pattern1 from '../../img/png/pattern1.png';
 import pattern2 from '../../img/png/pattern2.png';
 import play_btn from '../../img/svg/play_btn.svg';
 import background_facultet1 from '../../img/png/background_facultet1.png';
-import icon_facultety_web from '../../img/png/icon_facultety_web.png';
-import emblem_facultety from '../../img/png/emblem_facultety.png';
+import background_facultet2 from '../../img/png/background_facultet2.png';
+import background_facultet3 from '../../img/png/background_facultet3.png';
+import emblem_facultety1 from '../../img/svg/emblem_facultety1.svg';
+import emblem_facultety2 from '../../img/svg/emblem_facultety2.svg';
+import emblem_facultety3 from '../../img/svg/emblem_facultety3.svg';
 import group2 from '../../img/png/group2.png';
 import user2 from '../../img/png/user2.png';
 import date2 from '../../img/png/date2.png';
 import star16 from '../../img/png/star16.png';
 import star19 from '../../img/png/star19.png';
-import background_facultet2 from '../../img/png/background_facultet2.png';
 import icon_facultety_dev from '../../img/png/icon_facultety_dev.png';
-import prog_logo from '../../img/svg/prog_logo.svg';
+import icon_facultety_web from '../../img/png/icon_facultety_web.png';
+import icon_facultety_mult from '../../img/png/icon_facultety_mult.png';
+import code_developmen1 from '../../img/png/code_developmen1.png';
+import code_developmen2 from '../../img/png/code_developmen2.png';
+import code_developmen3 from '../../img/png/code_developmen3.png';
+import code_developmen4 from '../../img/png/code_developmen4.png';
+import code_developmen5 from '../../img/png/code_developmen5.png';
+import code_developmen6 from '../../img/png/code_developmen6.png';
+import arrow_big from '../../img/svg/arrow_big.svg';
+import microsoft_logo1 from '../../img/png/microsoft_logo1.png';
+import microsoft_logo2 from '../../img/png/microsoft_logo2.png';
+import banner_web1 from '../../img/png/banner1.png';
+import banner_web2 from '../../img/png/banner2.png';
+import facebook_logo from '../../img/svg/facebook_logo.svg';
+import instagram_logo from '../../img/svg/instagram_logo.svg';
+import twitter_logo from '../../img/svg/twitter_logo.svg';
+import linkedin_logo from '../../img/svg/linkedin_logo.svg';
 
 export default function MainComp(){
     return (
@@ -213,49 +231,37 @@ export default function MainComp(){
             <div><h1>Ֆակուլտետներ</h1></div>
           </div>
           <div className={`${styles.faculty}`}>
-            <div className={`${styles.facult_web}`}>
-              <div className={`${styles.facult_web_img}`}>
-                <img src={background_facultet1}/>
-                <h2>Վեբ <br></br>ծրագրավորման</h2>
-                <img src={emblem_facultety} className={`${styles.facult_web_emblem}`}/>
+            <div className={`${styles.facult_dev}`}>
+                <img src={emblem_facultety1} className={`${styles.facult_dev_prog_log}`}/>
+                <div className={`${styles.facult_dev_option_sales}`}>
+                  <p>-45% զեղչ</p>
+                </div>
+                <img src={background_facultet1} className={`${styles.background_facultet2}`}/>
                 <div>
-                  <div className={`${styles.sales_background}`}></div>
-                  <span>- 45% զեղչ</span>
+                  <h1>Վեբ ծրագրավորման</h1>
                 </div>
-              </div>
-              <div className={`${styles.facult_web_icon}`}>
-                <img src={icon_facultety_web}/>
-              </div>
-              <div className={`${styles.options}`}>
-                <div className={`${styles.option1}`}>
-                  <p>Front end</p>
+                <h3>Ֆակուլտետ</h3>  
+                <img src={icon_facultety_web} className={`${styles.facult_dev_img}`}/>
+                <div className={`${styles.facult_dev_options}`}>
+                  <div className={`${styles.facult_dev_option}`}>
+                    <p>Front end</p>
+                    <p className={`${styles.facult_dev_option_p2}`}>25% զեղչ</p>
+                  </div>
+                  <div className={`${styles.facult_dev_option}`}>
+                    <p>Back end</p>
+                    <p className={`${styles.facult_dev_option_p2}`}>25% զեղչ</p>
+                  </div>
+                  <div className={`${styles.facult_dev_option}`}>
+                    <p>Full stack</p>
+                    <p className={`${styles.facult_dev_option_p2}`}>25% զեղչ</p>
+                  </div>
+                  <div className={`${styles.facultet_btn}`}>
+                    <a href='#'>Իմանալ ավելին</a>
+                  </div>
                 </div>
-                <div className={`${styles.option2}`}>
-                  <p>25% զեղչ</p>
-                </div>
-              </div>
-              <div className={`${styles.options}`}>
-                <div className={`${styles.option1}`}>
-                  <p>Back end</p>
-                </div>
-                <div className={`${styles.option2}`}>
-                  <p>25% զեղչ</p>
-                </div>
-              </div>
-              <div className={`${styles.options}`}>
-                <div className={`${styles.option1}`}>
-                  <p>Full stack</p>
-                </div>
-                <div className={`${styles.option2}`}>
-                  <p>25% զեղչ</p>
-                </div>
-              </div>
-              <div className={`${styles.frame_a2} ${styles.frame_a}`}>
-                <a href='#'>Իմանալ ավելին</a>
-              </div>
             </div>
             <div className={`${styles.facult_dev}`}>
-                <img src={prog_logo} className={`${styles.facult_dev_prog_log}`}/>
+                <img src={emblem_facultety2} className={`${styles.facult_dev_prog_log}`}/>
                 <div className={`${styles.facult_dev_option_sales}`}>
                   <p>-45% զեղչ</p>
                 </div>
@@ -266,20 +272,47 @@ export default function MainComp(){
                 <div className={`${styles.facult_dev_options}`}>
                   <div className={`${styles.facult_dev_option}`}>
                     <p>Front end</p>
-                    <p>25% զեղչ</p>
+                    <p className={`${styles.facult_dev_option_p2}`}>25% զեղչ</p>
                   </div>
                   <div className={`${styles.facult_dev_option}`}>
                     <p>Back end</p>
-                    <p>25% զեղչ</p>
+                    <p className={`${styles.facult_dev_option_p2}`}>25% զեղչ</p>
                   </div>
                   <div className={`${styles.facult_dev_option}`}>
                     <p>Full stack</p>
-                    <p>25% զեղչ</p>
+                    <p className={`${styles.facult_dev_option_p2}`}>25% զեղչ</p>
                   </div>
                 </div>
+                <div className={`${styles.facultet_btn}`}>
+                  <a href='#'>Իմանալ ավելին</a>
+                </div>
             </div>
-            <div className={`${styles.facult}`}>
-
+            <div className={`${styles.facult_dev}`}>
+                <img src={emblem_facultety3} className={`${styles.facult_dev_prog_log}`}/>
+                <div className={`${styles.facult_dev_option_sales}`}>
+                  <p>-45% զեղչ</p>
+                </div>
+                <img src={background_facultet3} className={`${styles.background_facultet2}`}/>
+                <h1>Մուլտիմեդիայի</h1>
+                <h3>Ֆակուլտետ</h3>
+                <img src={icon_facultety_mult} className={`${styles.facult_dev_img}`}/>
+                <div className={`${styles.facult_dev_options}`}>
+                  <div className={`${styles.facult_dev_option}`}>
+                    <p>Front end</p>
+                    <p className={`${styles.facult_dev_option_p2}`}>25% զեղչ</p>
+                  </div>
+                  <div className={`${styles.facult_dev_option}`}>
+                    <p>Back end</p>
+                    <p className={`${styles.facult_dev_option_p2}`}>25% զեղչ</p>
+                  </div>
+                  <div className={`${styles.facult_dev_option}`}>
+                    <p>Full stack</p>
+                    <p className={`${styles.facult_dev_option_p2}`}>25% զեղչ</p>
+                  </div>
+                  <div className={`${styles.facultet_btn}`}>
+                  <a href='#'>Իմանալ ավելին</a>
+                </div>
+                </div>
             </div>
           </div>
         </div>
@@ -336,9 +369,216 @@ export default function MainComp(){
                 </div>
               <div className={`${styles.lessons_btn_gruop_div2}`}>
                 <div><a href='#'><span>Ուս․ ծրագիր</span></a></div>
-                </div>
+              </div>
             </div>
           </div>
+          
+          </div>
+          
+        </div>
+      </section>
+      <section className={`${styles.section6}`}>
+        <div className={`${styles.container_section5}`}>
+          <div className={`${styles.section5_h1}`}>
+            <h1>Ծառայություններ</h1>
+          </div>
+          <div className={`${styles.section6_services_gruop}`}>
+            <div className={`${styles.section6_services_block}`}>
+              <div className={`${styles.section6_services_block_option}`}>
+                <p>Վեբ Կայքերի պատրաստում</p>
+                <div className={`${styles.section6_services_block_option_btn}`}>
+                  <a href='#'><span>Պատվիրել</span></a>
+                </div>
+              </div>
+              <div className={`${styles.section6_services_block_icon1}`}>
+                <img src={code_developmen1} />
+              </div>
+            </div>
+            <div className={`${styles.section6_services_block}`}>
+              <div className={`${styles.section6_services_block_option}`}>
+                <p>Բջջային հավելվածներ</p>
+                <div className={`${styles.section6_services_block_option_btn}`}>
+                  <a href='#'><span>Պատվիրել</span></a>
+                </div>
+              </div>
+              <div className={`${styles.section6_services_block_icon1}`}>
+                <img src={code_developmen2} />
+              </div>
+            </div>
+          </div>
+          <div className={`${styles.section6_services_gruop}`}>
+          <div className={`${styles.section6_services_block}`}>
+              <div className={`${styles.section6_services_block_option}`}>
+                <p>Համակարչային հավելվածներ</p>
+                <div className={`${styles.section6_services_block_option_btn}`}>
+                  <a href='#'><span>Պատվիրել</span></a>
+                </div>
+              </div>
+              <div className={`${styles.section6_services_block_icon1}`}>
+                <img src={code_developmen3} />
+              </div>
+            </div>
+            <div className={`${styles.section6_services_block}`}>
+              <div className={`${styles.section6_services_block_option}`}>
+                <p>Բջջային և համ․խաղեր</p>
+                <div className={`${styles.section6_services_block_option_btn}`}>
+                  <a href='#'><span>Պատվիրել</span></a>
+                </div>
+              </div>
+              <div className={`${styles.section6_services_block_icon1}`}>
+                <img src={code_developmen4} />
+              </div>
+            </div>
+          </div>
+          <div className={`${styles.section6_services_gruop}`}>
+            <div className={`${styles.section6_services_block}`}>
+              <div className={`${styles.section6_services_block_option}`}>
+                <p>Վեբ և գրաֆիկ դիզայն</p>
+                <div className={`${styles.section6_services_block_option_btn}`}>
+                  <a href='#'><span>Պատվիրել</span></a>
+                </div>
+              </div>
+              <div className={`${styles.section6_services_block_icon1}`}>
+                <img src={code_developmen5} />
+              </div>
+            </div>
+            <div className={`${styles.section6_services_block}`}>
+              <div className={`${styles.section6_services_block_option}`}>
+                <p>ՍԵՈ և ՍՄՄ առաջխաղացում</p>
+                <div className={`${styles.section6_services_block_option_btn}`}>
+                  <a href='#'><span>Պատվիրել</span></a>
+                </div>
+              </div>
+              <div className={`${styles.section6_services_block_icon1}`}>
+                <img src={code_developmen6} />
+              </div>
+            </div>
+          </div>
+          <div className={`${styles.section6_services_arrow}`}>
+              <img src={arrow_big}/>
+            </div>
+        </div>
+      </section>
+      <section className={`${styles.section7}`}>
+        <div className={`${styles.container_section7}`}>
+          <div className={`${styles.container_section7_h1}`}>
+            <h1>Մեր գործընկերները</h1>
+          </div>
+          <div className={`${styles.container_section7_about_us_group}`}>
+            <div className={`${styles.container_section7_about_us_group_block}`}>
+              <img src={microsoft_logo1} />
+            </div>
+            <div className={`${styles.container_section7_about_us_group_block}`}>
+              <img src={microsoft_logo2} />
+            </div>
+            <div className={`${styles.container_section7_about_us_group_block}`}>
+              <img src={microsoft_logo1} />
+            </div>
+            <div className={`${styles.container_section7_about_us_group_block}`}>
+              <img src={microsoft_logo1} />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={`${styles.section8}`}>
+        <div className={`${styles.container_section8}`}>
+          <div className={`${styles.container_section8_h1}`}>
+            <h1>Մեր աշխատանքները</h1>
+          </div>
+          <div className={`${styles.container_section8_banner_group}`}>
+              <div className={`${styles.container_section8_banner}`}>
+                <img src={banner_web1} />
+                <div className={`${styles.lessons_btn_gruop_div2} ${styles.btn_margin}`}>
+                  <div><a href='#'><span>Տեսնել կայքը</span></a></div>
+                </div>
+              </div>
+            <div className={`${styles.container_section8_banner} ${styles.container_section8_banner_margin}`}>
+              <img src={banner_web2} />
+              <div className={`${styles.lessons_btn_gruop_div2} ${styles.btn_margin}`}>
+                <div><a href='#'><span>Տեսնել կայքը</span></a></div>
+              </div>
+            </div>
+          </div>
+          <div className={`${styles.slider_icons}`}>
+            <div className={`${styles.slider_icon}`}></div>
+            <div className={`${styles.slider_icon}`}></div>
+            <div className={`${styles.slider_icon_selected}`}></div>
+          </div>
+        </div>
+      </section>
+      <section className={`${styles.section9}`}>
+        <div className={`${styles.container_section9}`}>
+          <div className={`${styles.container_section9_subc_group}`}>
+            <p className={`${styles.container_section9_subc_p}`}>Բաժանորդագրվել</p>
+            <div className={`${styles.container_section9_subc_email_btn}`}>
+              <p>E-mail</p>
+            </div>
+            <div>
+              <div className={`${styles.container_section9_subc_send_btn}`}>
+                <a><span>Ուղարկել</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={`${styles.section10}`}>
+        <div className={`${styles.container_section10}`}>
+          <div className={`${styles.about_office}`}>
+            <div className={`${styles.header_logo} ${styles.logo_margin}`}>
+            <img src={logo} alt='logo'/>
+            <p>GLOBAL
+              <span> IT</span>
+            </p>
+          </div>
+            <p className={`${styles.about_office_p}`}>
+              ԳԼՈԲԱԼ ԻՏ» ՍՊԸ-ն հիմնադրվել է 2017թ.-ի հոկտեմբերի
+              19ին Գ. Քոսյանի կողմից: Մենք առաջարկում ենք 
+              ծրագրային տարատեսակ լուծումներ, որոնց նպատակն է 
+              մեծացնել Ձեր բիզնեսի շահութաբերությունը և նպաստել 
+              աճին: Մեր ստեղծարար թիմը համատեղ ուժերով տալիս Է 
+              նորարարական լուծումներ, որոնք նպաստում են Ձեր 
+              բիզնեսի թիրախային լսարանի ներգրավմանը:
+            </p>
+            <div className={`${styles.logo_social}`}>
+              <div><img src={facebook_logo}/></div>
+              <div><img src={twitter_logo}/></div>
+              <div><img src={instagram_logo}/></div>
+              <div><img src={linkedin_logo}/></div>
+            </div>
+          </div>
+          <div className={`${styles.office_lessons}`}>
+            <h3>Դասընթացներ</h3>
+            <p>Վեբ ծրագրավորում Ծրագրավորում Մուլտիմեդիա Նախագծեր
+                Անվճար դասընթացներ Այլ Դասընթացներ
+            </p>
+          </div>
+          <div className={`${styles.h3_group}`}>
+            <h3>Նախագծեր</h3>
+            <h3>Աշխատանք</h3>
+            <h3>Մեր մասին</h3>
+          </div>
+          <div className={`${styles.address}`}>
+            <h4>Հասցեներ</h4>
+            <p>Ք. Երևան Ալեք Մանուկլյան15ա (Հյուսիսային Համալսարան) 
+                ք. Էջմիածին  Գ․ Լուսավորիչ համալսարան 2հ․ 41,47 սեն․
+                ք․ Աբովյան 6-րդ դպրոց, գ․ Արամուսի Մշակույթի տուն
+                ք․ Չարենցավան 6-րդ դպրոց ք․ Սևան 5-րդ դպրոց
+                Հեռախոսահամարներ <br></br>Էլ․ հասցե +374 95 355 255 gitedu@bk.ru
+                +374 98 960 959 <br></br>globalit@gitedu.am
+              </p>
+          </div>
+          
+        </div>
+        <div className={`${styles.d_block}` }>
+          <hr className={`${styles.d_block_hr}` }></hr>
+          <div>
+            <p>
+              Copyright ©2020 Բոլոր հեղինակային իրավունքները 
+              պաշտպանված են: |  Կայքը պատրաստված է "ԳԼՈԲԱԼ ԻՏ" 
+              (ՍՊԸ)-ի կողմից, որը հանդիսանում է ընկերության 
+              Պաշտոնական կայքէջը: Կայքից նույթ տեղադրելիս հղումը
+              gitedu.am-ին պարտադիր է:
+            </p>
           </div>
         </div>
       </section>
